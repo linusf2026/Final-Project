@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Project-Farer.css">
+  <title>Train Quiz</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1>My Train Collection</h1>
+    <p>Train Quiz</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="Farer-Page2.html">New York City</a>
+    <a href="Farer-Page3.html">London</a>
+    <a href="Farer-Page4.html">Rome</a>
+    <a href="quiz-start.html">Quiz</a>
+    <a href="https://www.instagram.com/k1_trains/">My Train Instagram</a>
+  </nav>
+
+  <main>
+    <section class="row">
+
+      <aside class="side">
+        <h2>Quiz Info</h2>
+        <h5>Train Memory Challenge</h5>
+        <p class="font">
+          Answer questions based on the pages you explored. </p>
+        <p class="font">
+          If you get enough right you will make the leaderboard! </p>
+      </aside>
+
+      <article class="row1">
+
+        <section id="quizContainer">
+          <h2>Linus Train Website Quiz</h2>
+          <p id="welcomeMessage" class="font"></p>
+          <p id="scoreText" class="font">Score: 0</p>
+
+          <h3 id="questionText"></h3>
+
+          <div id="answerButtons" class="answer-buttons"></div>
+
+          <p id="feedback" class="font"></p>
+
+          <button id="nextButton" class="quiz-btn" style="display: none;">
+            Next Question
+          </button>
+        </section>
+
+        <section id="resultBox" style="display: none;">
+          <h2>Quiz Results</h2>
+          <p id="finalMessage" class="font"></p>
+
+          <h3>Top Scores</h3>
+          <ol id="leaderboardList" class="font"></ol>
+
+          <a href="quiz-start.html" class="quiz-btn">Play Again</a>
+          <button id="resetScoresBtn" class="quiz-btn">Reset Leaderboard</button>
+        </section>
+
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>© 2026 Linus Farer. All rights reserved</h2>
+  </footer>
+
+  <script src="train-quiz.js"></script>
+</body>
+</html>

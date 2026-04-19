@@ -1,0 +1,231 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: #1a63bc;
+            color: white;
+        }
+
+        .navbar {
+
+            background-color: #333;
+            text-align: center;
+            display: flex; 
+        }
+
+        .navbar a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .row {
+
+            flex-wrap: wrap;
+            display: flex;
+        }
+
+        .side {
+
+            background-color: #f1f1f1;
+            padding: 20px;
+            flex: 30%;
+        }
+
+        .row2 {
+
+            background-color: white;
+            padding: 50px;
+            flex: 70%;
+        }
+
+        .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+        }
+
+        .footer {
+            padding: 20px;
+            text-align: center;
+            background: #fff530c4;
+        }
+
+        .font
+        {
+         font-family: "Lucida Console", "Courier New", monospace;
+         font-size: 18px;
+         line-height: 1.5;
+         text-align: center;
+         }
+
+
+
+         .row1 {
+
+            background-color: white;
+            padding: 50px;
+            flex: 70%;
+        }
+
+        .row2 {
+
+            background-color: white;
+            padding: 50px;
+            flex: 70%;
+        }
+            .main-video {
+                display: flex;
+                justify-content: center;
+            }  
+        .row3 {
+
+            background-color: white;
+            padding: 50px;
+            flex: 70%;
+        } 
+        .row4 {
+
+            background-color: white;
+            padding: 50px;
+            flex: 70%;
+        }
+        @media screen and (max-width: 700px) { .row, .navbar { flex-direction: column; } } 
+
+        img, video {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+        .quiz-layout {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 30px;
+        background-color: #f7f7f7;
+    }
+
+        .quiz-panel {
+        flex: 1 1 300px;
+        background: white;
+        padding: 25px;
+        border-radius: 14px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    }
+
+        .quiz-form {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+        .quiz-form input,
+        .quiz-form select {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        font-size: 16px;
+    }   
+
+        .primary-button,
+        .answer-button,
+        .link-button {
+        background: #1a63bc;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 18px;
+        font-size: 16px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .primary-button:hover,
+        .answer-button:hover,
+        .link-button:hover {
+        background: #114785;
+    }
+
+        .answer-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 12px;
+        margin: 20px 0;
+    }
+
+        .correct-answer {
+        background: #2e8b57;
+    }
+
+        .wrong-answer {
+        background: #b22222;
+    }
+
+        .message-text {
+        min-height: 30px;
+        font-weight: bold;
+    }
+
+        @media screen and (max-width: 700px) {
+        .quiz-layout {
+        padding: 15px;
+        }
+    }
+
+        .quiz-form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        max-width: 500px;
+        margin: 0 auto;
+        text-align: left;
+    }
+
+        .quiz-form input,
+        .quiz-form select {
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .quiz-btn {
+    background-color: #1a63bc;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    }
+
+    .quiz-btn:hover {
+    background-color: #144d91;
+    }
+
+    .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    }
+    
+    .quoteText {
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    }

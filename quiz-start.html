@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Project-Farer.css">
+  <title>Start Quiz</title>
+</head>
+<body>
+
+  <header class="header">
+    <h1>My Train Collection</h1>
+    <p>Train Quiz</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="Farer-Page2.html">New York City</a>
+    <a href="Farer-Page3.html">London</a>
+    <a href="Farer-Page4.html">Rome</a>
+    <a href="quiz-start.html">Quiz</a>
+    <a href="https://www.instagram.com/k1_trains/">My Train Instagram</a>
+  </nav>
+
+  <main>
+    <section class="row">
+
+      <aside class="side">
+        <h2>Quiz Info</h2>
+        <h5>Website Quz</h5>
+        <p class="font">
+          Pick your favorite city and test how much you remember from the train pages.
+        </p>
+        <p class="font">
+          Your score will be saved to the leaderboard when you finish the quiz.
+        </p>
+      </aside>
+
+      <article class="row1">
+        <h2>Start the Website Quiz</h2>
+
+        <form id="startForm">
+
+          <label for="playerName" class="font">Your Name:</label>
+          <input type="text" id="playerName" required>
+
+          <label for="favoriteCity" class="font">Favorite City:</label>
+          <select id="favoriteCity" required>
+            <option value="">Choose a city</option>
+            <option value="New York City">New York City</option>
+            <option value="London">London</option>
+            <option value="Rome">Rome</option>
+          </select>
+
+          <p id="errorMessage" class="font"></p>
+
+          <button type="submit" class="quiz-btn">Start Quiz</button>
+
+        </form>
+      </article>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <h2>© 2026 Linus Farer. All rights reserved</h2>
+  </footer>
+
+  <script src="train-quiz.js"></script>
+
+</body>
+</html>
